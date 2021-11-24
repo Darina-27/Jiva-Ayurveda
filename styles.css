@@ -104,6 +104,16 @@
     color: #810000;
   
   }
+  @media only screen and (max-width: 540px) {
+    .left-main {
+      background-image: url(https://media.istockphoto.com/photos/vector-hexagons-pattern-geometric-abstract-background-with-simple-picture-id1307794659?b=1&k=20&m=1307794659&s=170667a&w=0&h=8utxIGEIgxxX_rUGxa5DtS7MQIaCHvQjt1eBrU28lEg=);
+    }
+  }
+  @media only screen and (max-width: 360px) {
+    .left-main {
+      margin-bottom: 20px;
+    }
+  }
   .left-main h1, .left-main h4{
     font-weight: bolder;
   
@@ -176,3 +186,40 @@ h2{
   .MORE .btn-outline-danger:hover{
       background-color: #810000;
   }
+
+  /*---------------------------------THIRD-------------------------*/
+#third .container{
+    text-align: center;
+    
+  }
+   p{
+     font-family: 'Montserrat', sans-serif;
+     text-align: center;
+  }
+  
+  #third .card-body{
+    background-color: #FAF3F3;
+    color: #CC561E ;
+  }
+  
+  
+  .cards{
+    margin-top: 80px;
+  }
+  
+  #third{
+    margin-bottom: 90px;
+  }
+
+  /*=----------------------------------FOURTH----------------------*/
+
+#fourth{
+    padding-top: 60px;
+    background-color: #FAF3F3;
+  }
+  
+@media only screen and (max-width:570px) {
+    .final{
+        margin-bottom:20px;
+    }
+}
